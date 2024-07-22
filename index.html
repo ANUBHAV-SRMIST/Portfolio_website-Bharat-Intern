@@ -13,12 +13,14 @@
 
     <style>
         * {
-            margin: 0 padding 0;
+            margin: auto;
+            padding: 0;
         }
 
         body {
-            background-color: rgb(rgb(29, 10, 10), green, blue);
-            color: rgb(144, 0, 0);
+            background-color: #3F51B5;
+
+
             font-family: ' Poppins', sans-serif;
         }
 
@@ -48,13 +50,13 @@
         }
 
         nav ul li a:hover {
-            color: rgb(6, 45, 93);
+            color: rgb(240, 243, 246);
             font-size: 1.02rem;
         }
 
         main hr {
             border: 0;
-            background: #9c97f1;
+            background: #dbdbde;
             height: 1.2px;
             margin: 60px 84px;
 
@@ -106,15 +108,15 @@
         }
 
         .purple {
-            color: blueviolet;
+            color: white;
         }
 
         .text-gray {
-            color: rgb(17, 125, 164);
+            color: #FFEB3B;
         }
 
         #element {
-            color: blueviolet;
+            color: #f4f1f8;
 
         }
 
@@ -140,38 +142,62 @@
 
         .secondSection .vertical {
             height: 93px;
-            width: 2px;
-            background: green;
-            margin: 0 100px;
+            width: 0.5px;
+            background: white;
+            margin: 0 120px;
+
+
         }
 
         .image-top {
-            width: 200px;
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -9px;
         }
 
         .vertical-title {
             position: relative;
+            top: 75px;
+            width: 150px;
 
 
         }
 
         .vertical-desc {
             position: relative;
-
-            color: rgb(12, 206, 57);
+            top: 86px;
+            color: #FFEB3B;
             width: 150px;
-
+            font-size: 15px;
 
         }
 
         .footer {
 
-            background-color: lightsalmon;
+            background-color: #22287c;
+            height: 233px;
         }
 
         .footer {
 
             display: flex;
+            padding: 23px 0px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 220px;
+
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            padding: 5px 0;
         }
     </style>
 </head>
@@ -218,58 +244,115 @@
         </section>
         <hr>
         <section class="secondSection">
-            <span class="text-gray">What I have done so far</span>
+
             <h1>EDUCATION</h1>
             <div class="box">
-                <div class="Vertical">
+                <div class="vertical">
                     <img class="image-top" src="10TH.jpg" alt="">
                     <div class="vertical-title">
-                        JAC - 10TH 2nd September, 2020
+                        JAC 10TH
+                        2nd September, 2020
                     </div>
                     <div class="vertical-desc">
                         I completed my successfully 10th board from Adiwasi High School Mangrutikar , Borio Shahibganj
                         Jharkhand -06436
                         Percentage = 88.8%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="chinmaya_vidyalaya_bokaro_steel_city_cover.jpeg" alt="">
+                    <div class="vertical-title">
+                        CBSE - 12TH
+                        2021-2022
+                    </div>
+                    <div class="vertical-desc">
+                        I completed my successfully 12th board from Chinmaya Vidyalaya , Bokaro Steel City Sec - 4
+                        827004 Percentage = 70%
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="SRM.jpeg" alt="">
+                    <div class="vertical-title">
+                        B.Tech Engineering 2023 - Present
+                    </div>
+                    <div class="vertical-desc">
+                        I am pursuing my b.tech in SRM Institute of Science and Technology KTR Chennai.
+                        Branch - ECE
+
+                        Specialisation - Data Science
+
+                        CGPA - 9.33/10 (1st sem)
+                        9.64/10 (2nd sem)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="AICTE.jpg" alt="">
+                    <div class="vertical-title">
+                        EduSkills Foundation
+                        1 May 2024 - 25 June 2024
+                    </div>
+                    <div class="vertical-desc">
+                        AICTE -EduSkills Internship
+                        Microchip University
+                        Embedded Systems and Microcontrollers
+                        - Virtual
 
                     </div>
-                    <div class="Vertical">
-                        <img class="image-top" src="chinmaya_vidyalaya_bokaro_steel_city_cover.jpeg" alt="">
-                        <div class="vertical-title">
-                            CBSE - 12TH 2021-2022
-                        </div>
-                        <div class="vertical-desc">
-                            I completed my successfully 12th board from Chinmaya Vidyalaya ,Bokaro Steel City Sec - 4
-                            827004 Percentage = 70%
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="Infosis.png" alt="">
+                    <div class="vertical-title">
+                        ANUBHAV SHRIJAN MISHRA (RA2311053010051)
+                    </div>
+                    <div class="vertical-desc">
+                        IoT Communication Technologies
+                    </div>
+                </div>
 
-                        </div>
-                        <div class="Vertical">
-                            <img class="image-top" src="SRM.jpeg" alt="">
-                            <div class="vertical-title">
-                                B.TECH ENGINEERING 2023 - PRESENT
-                            </div>
-                            <div class="vertical-desc">
-                                I am pursuing my b.tech in SRM Institute of Science and Technology KTR Chennai.
-                                Branch - ECE Specialisation - Data Science
-                                CGPA - 9.33/10 (1st sem) - 9.64/10 (2nd sem)
+            </div>
 
-                            </div>
-                            <div class="Vertical">
-                                <img class="image-top" src="AICTE.jpg" alt="">
-                                <div class="vertical-title">
-                                    EDUSKILLS FOUNDATION 1 MAY 2024 - 25 JUNE 2024
-                                </div>
-                                <div class="vertical-desc">
-                                    AICTE -EduSkills Internship
-                                    Microchip University 
-                                    Embedded Systems and Microcontrollers
-                                    - Virtual
-                                    View : Certificate
-                                </div>
-
-
-                            </div>
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Anubhav's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Resume</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Resume</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Resume</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; anubhav's portfolio.com | All rights reserved
+        </div>
+    </footer>
 
 
 
